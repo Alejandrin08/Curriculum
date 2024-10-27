@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Curriculum</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.htm">Inicio</a>
+    </nav>
+    <header>
+        <div class="tile">
+            <div class="info-tile">
+                <h1>Alejandro Sánchez Marín</h1>
+                <h2>Estudiante en Ingeniería de Software</h2>
+                <button class="btn-primary" onclick="scrollToSection()">Acerca de mí</button>
+                <div>
+                    <ul class="social-media-ul">
+                        <li class="social-media-li">
+                            <a href="https://www.instagram.com/alejan_09_/profilecard/?igsh=MTJmaGQwZGFqbGl1Yw=="
+                                target="_blank">
+                                <img src="assets/img/instagram.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="social-media-li">
+                            <a href="https://github.com/Alejandrin08" target="_blank">
+                                <img src="assets/img/github.png" alt="Github">
+                            </a>
+                        </li>
+                        <li class="social-media-li">
+                            <a href="https://www.linkedin.com/in/alejandrosanchezmarin09?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                target="_blank">
+                                <img src="assets/img/linkedin.png" alt="LinkedIn">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame-tile">
+            </div>
+        </div>
+    </header>
+
+    <section class="section-about-me" id="section-id">
+        <h2>Acerca de mí</h2>
+        <p>¡Hola! Mi nombre es Alejandro Sánchez Marín, soy un estudiante de Ingeniería de Software de la
+            Universidad
+            Veracruzana. Actualmente me encuentro en el séptimo semestre de la carrera y me apasiona el desarrollo
+            de
+            software, la programación y la tecnología en general. Me considero una persona autodidacta, responsable
+            y
+            comprometida con mi formación académica y profesional.</p>
+    </section>
+    <article>
+        <h1>Experiencia</h1>
+        <div class="article-info">
+            <div class="column column-left">
+                <div class="section-slider-info">
+                    <h2>Diseño</h2>
+                    <p>Diseño de interfaces de usuario con Figma y conocimiento del diseño de arquitecturas
+                        de software con UML.
+                    </p>
+                </div>
+                <div class="section-slider-info">
+                    <h2>Construcción</h2>
+                    <p>Desarrollo de aplicaciones de escritorio con Java y C#. De igual manera, desarrollo de
+                        aplicaciones web
+                        con el uso de APIs.
+                    </p>
+                </div>
+            </div>
+
+            <section class="section-slider">
+                <div class="section-slider-circle" id="circle-1"></div>
+                <div class="section-slider-circle" id="circle-2"></div>
+                <div class="section-slider-circle" id="circle-3"></div>
+                <div class="section-slider-circle" id="circle-4"></div>
+            </section>
+
+            <div class="column column-right">
+                <div class="section-slider-info">
+                    <h2>Despliegue</h2>
+                    <p>Despliegue de aplicaciones web con el uso de servicios en la nube como Azure.
+                        Experiencia en el uso de contenedores con Docker.
+                    </p>
+                </div>
+                <div class="section-slider-info">
+                    <h2>Bases de datos</h2>
+                    <p>Manejo de bases de datos relacionales con MySQL y Server SQL.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h1>Habilidades</h1>
+        <section class="section-skills">
+            <div class="tile-skills">
+                <h2>Frontend</h2>
+                <div class="skill">
+                    <p>HTML</p>
+                    <p>90%</p>
+                </div>
+                <progress value="90" max="100"></progress>
+
+                <div class="skill">
+                    <p>CSS</p>
+                    <p>80%</p>
+                </div>
+                <progress value="80" max="100"></progress>
+
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <p>80%</p>
+                </div>
+                <progress value="80" max="100"></progress>
+            </div>
+
+            <div class="tile-skills">
+                <h2>Backend</h2>
+                <div class="skill">
+                    <p>Java</p>
+                    <p>80%</p>
+                </div>
+                <progress value="80" max="100"></progress>
+
+                <div class="skill">
+                    <p>NodeJS</p>
+                    <p>80%</p>
+                </div>
+                <progress value="80" max="100"></progress>
+
+                <div class="skill">
+                    <p>C#</p>
+                    <p>80%</p>
+                </div>
+                <progress value="80" max="100"></progress>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        <p>© 2024 Alejandro Sánchez Marín. Todos los derechos reservados.</p>
+        <ul class="social-media-ul" id="footer-ul">
+            <li class="social-media-li">
+                <a href="https://www.instagram.com/alejan_09_/profilecard/?igsh=MTJmaGQwZGFqbGl1Yw==" target="_blank">
+                    <img src="assets/img/instagram.png" alt="Instagram">
+                </a>
+            </li>
+            <li class="social-media-li">
+                <a href="https://github.com/Alejandrin08" target="_blank">
+                    <img src="assets/img/github.png" alt="Github">
+                </a>
+            </li>
+            <li class="social-media-li">
+                <a href="https://www.linkedin.com/in/alejandrosanchezmarin09?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    target="_blank">
+                    <img src="assets/img/linkedin.png" alt="LinkedIn">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
