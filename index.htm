@@ -96,6 +96,81 @@
             </div>
         </div>
 
+        <div class="tile-projects">
+            <input type="radio" name="carousel" id="img1" checked>
+            <input type="radio" name="carousel" id="img2">
+            <input type="radio" name="carousel" id="img3">
+            <input type="radio" name="carousel" id="img4">
+            <input type="radio" name="carousel" id="img5">
+            <div class="content-wrapper">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="assets\img\chineseCheckers.png" alt="Chinese Checkers">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets\img\closiris.png" alt="Closiris">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets\img\komalli.png" alt="Komalli">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <div class="text-item">
+                        <h2>Chinese Checkers</h2>
+                        <p>Chinese Checkers es un videojuego multijugador basado en el juego de mesa de Damas Chinas.
+                            En este juego es posible el buscar y agregar amigos y jugar con ellos en salas de hasta 6
+                            jugadores.</p>
+                        <p>Las tecnologías empleadas para su construcción fue C# del lado del cliente como del servidor
+                            haciendo uso de callbacks con WCF, se usu un ORM de Entity Framework y una base de datos SQL
+                            Server.
+                            También se uso para el cliente WPF.</p>
+                        </p>
+                    </div>
+                    <div class="text-item">
+                        <h2>Closiris</h2>
+                        <p>Closiris es una aplicación de gestión de archivos. En esta un usuario puede subir distintos
+                            archivos
+                            aceptando formatos como PDF, MP3, MP4, Word, Excel, Power Point, entre otros. También se
+                            pueden
+                            crear carpetas para organizar los archivos y compartirlos a otras personas.</p>
+                        </p>
+                        <p>Para su construcción se utilizaron dos clientes, tanto para escritorio como página web. El
+                            primero se construyo
+                            con C# y WPF, mientras que el segundo con ASP.NET Core. Para el servidor se utilizó NodeJS y
+                            ExpressJS
+                            así como para la administración de los archivos se uso gRPC con Python, y una base de datos
+                            MySQL. Se uso una arquitecturas de microservicios con un API Gateway hecho con Ocelot y
+                            redistribuido con
+                            Docker.</p>
+                        </p>
+                    </div>
+                    <div class="text-item">
+                        <h2>Komalli</h2>
+                        <p>Esta aplicación se trata de un sistema que ayudaría a personal de la cafetería de la Facultad
+                            de
+                            Estadística e Informática de la Universidad Veracruzana a llevar un control de los alimentos
+                            que se
+                            venden en la cafetería. Se pueden registrar los alimentos, los ingredientes que se utilizan
+                            para su
+                            preparación, los empleados que trabajan en la cafetería, los clientes que compran los
+                            alimentos
+                            mediante un Kiosko y entre otros.</p>
+                        </p>
+                        <p>Se construyo con C# y WPF y dentro del mismo proyecto se construyo un servidor pero
+                            unicamente la comunicación se hacía
+                            una base de datos MySQL alojada en un servidor en la nube llamado Somee.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <label for="img1" aria-label="View first slide"></label>
+                <label for="img2" aria-label="View second slide"></label>
+                <label for="img3" aria-label="View third slide"></label>
+            </div>
+        </div>
+
         <h1>Habilidades</h1>
         <section class="section-skills">
             <div class="tile-skills">
